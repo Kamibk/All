@@ -51,8 +51,8 @@ while True:
         print_board(game.board)
         print(f'Move {game.turn}')
         game.move(enter_numb())
-
     print_board(game.board)
+
     if game.game_status == 'X_WON':
         print('X won!')
     elif game.game_status == 'O_WON':
